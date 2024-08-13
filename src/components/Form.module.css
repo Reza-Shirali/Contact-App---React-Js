@@ -1,0 +1,118 @@
+.wrapper__form {
+  margin-top: 4rem;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 4rem;
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+  background-color: #fff;
+  box-shadow: rgba(29, 139, 207, 0.242) 0px 5px 15px 0px;
+}
+.form input {
+  width: 45%;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  border: 0.2rem solid #647e6825;
+  border-radius: 0.8rem;
+  outline: none;
+  padding: 1rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+  font-family: "inter-me";
+}
+.form input:nth-child(2),
+.form input:nth-child(4) {
+  margin-right: 0;
+}
+.form input::placeholder {
+  font-family: "inter-me";
+  font-size: 1.6rem;
+  color: #647e6895;
+}
+
+.form button {
+  width: calc(90% + 2rem);
+  border: 0.1rem solid #050c9c;
+  outline: none;
+  padding: 0.8rem;
+  background-color: #050c9c;
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+  color: #fff;
+  font-family: "inter-bo";
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: all 250ms ease-in 20ms;
+  -webkit-transition: all 250ms ease-in 20ms;
+  -moz-transition: all 250ms ease-in 20ms;
+  -ms-transition: all 250ms ease-in 20ms;
+  -o-transition: all 250ms ease-in 20ms;
+}
+.form button:hover {
+  background-color: #fff;
+  color: #050c9c;
+}
+.alert__hidden{
+  width: 100%;
+  height: 4rem;
+  margin-top: 2.8rem;
+  background-color: #fff;
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+  margin-bottom: 3rem;
+}
+.alert{
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.491);
+  border-radius: 1.2rem;
+  -webkit-border-radius: 1.2rem;
+  -moz-border-radius: 1.2rem;
+  -ms-border-radius: 1.2rem;
+  -o-border-radius: 1.2rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "inter-me";
+  font-size: 1.8rem;
+  margin-top: 2.8rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width:50rem) {
+  .form{
+    justify-content: start;
+    align-items: center;
+  }
+  .wrapper__form{
+    
+    margin:0 1rem 0 1rem;
+  }
+  .form input{
+    width: 100%;
+    margin-right: 0;
+  }
+  .form button{
+    width: 100%;
+  }
+  
+}

@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "inter";
+  src: url("../assets/fonts/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: "inter-me";
+  src: url("../assets/fonts/Inter-Medium.ttf");
+}
+@font-face {
+  font-family: "inter-bo";
+  src: url("../assets/fonts/Inter-Bold.ttf");
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "inter";
+  font-size: 1.6rem;
+}

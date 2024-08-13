@@ -1,0 +1,40 @@
+.wrapper__header {
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper__header h3 {
+  font-size: 5.5rem;
+  font-family: "inter-bo";
+  color: #050c9c;
+  margin-bottom: 0.8rem;
+}
+.wrapper__header p {
+  font-size: 1.8rem;
+  margin-top: 0.8rem;
+  font-family: "inter-me";
+  color: rgba(105, 117, 101, 0.777);
+}
+.wrapper__header span {
+  background-color: #a7e6ff;
+  padding: 0.4rem;
+  margin-right: 0.4rem;
+  border-radius: 0.5rem;
+  color: #050c9c;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+@media screen and (max-width:44rem) {
+  .wrapper__header h3{
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width:41.8rem) {
+  .wrapper__header p{
+    font-size: 1.4rem;
+  }
+}
